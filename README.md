@@ -40,7 +40,7 @@ If you are using Clang, you will need Clang 6.0 or higher. You will also need li
 - `export CC=gcc-8`
 - `export CXX=g++-8`
 - `git clone -b master --single-branch https://github.com/satorigold/SatoriGold`
-- `cd turtlecoin`
+- `cd SatoriGold`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -74,7 +74,7 @@ You need to modify the below command for your version of ubuntu - see https://ap
 - `export CC=clang-6.0`
 - `export CXX=clang++-6.0`
 - `git clone -b master --single-branch https://github.com/satorigold/SatoriGold`
-- `cd turtlecoin`
+- `cd SatoriGold`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -180,7 +180,7 @@ Hi SatoriCoin contributor, thanks for forking and sending back Pull Requests. Ex
 // Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers
 // Copyright (c) 2014-2018, The Monero Project
 // Copyright (c) 2018-2019, The TurtleCoin Developers
-// Copyright (c) 2019, The SatoriGold Developers
+// Copyright (c) 3021, The SatoriGold Developers
 //
 // Please see the included LICENSE file for more information.
 ```
