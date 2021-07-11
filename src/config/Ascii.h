@@ -6,21 +6,24 @@
 
 #include <string>
 
-const std::string windowsAsciiArt = 
+const std::string windowsAsciiArt = R""""(
+ :::===  :::====  :::==== :::====  :::====  ::: :::=====  :::====  :::      :::==== 
+ :::     :::  === :::==== :::  === :::  === ::: :::       :::  === :::      :::  ===
+  =====  ========   ===   ===  === =======  === === ===== ===  === ===      ===  ===
+     === ===  ===   ===   ===  === === ===  === ===   === ===  === ===      ===  ===
+ ======  ===  ===   ===    ======  ===  === ===  =======   ======  ======== ======= 
+)"""";
 
-"\n   .dBBBBP dBBBBBb  dBBBBBBP dBBBBP dBBBBBb    dBP dBBBBb  dBBBBP dBP    dBBBBb\n"
-"    BP           BB          dBP.BP      dBP               dBP.BP            dBP\n"
-"    `BBBBb   dBP BB   dBP   dBP.BP   dBBBBK   dBP dBBBB   dBP.BP dBP    dBP dBP\n" 
-"       dBP  dBP  BB  dBP   dBP.BP   dBP  BB  dBP dB' BB  dBP.BP dBP    dBP dBP\n"  
-"  dBBBBP'  dBBBBBBB dBP   dBBBBP   dBP  dB' dBP dBBBBBB dBBBBP dBBBBP dBBBBBP\n";
-
-const std::string nonWindowsAsciiArt =
-
-"\n   .dBBBBP dBBBBBb  dBBBBBBP dBBBBP dBBBBBb    dBP dBBBBb  dBBBBP dBP    dBBBBb\n"
-"    BP           BB          dBP.BP      dBP               dBP.BP            dBP\n"
-"    `BBBBb   dBP BB   dBP   dBP.BP   dBBBBK   dBP dBBBB   dBP.BP dBP    dBP dBP\n" 
-"       dBP  dBP  BB  dBP   dBP.BP   dBP  BB  dBP dB' BB  dBP.BP dBP    dBP dBP\n"  
-"  dBBBBP'  dBBBBBBB dBP   dBBBBP   dBP  dB' dBP dBBBBBB dBBBBP dBBBBP dBBBBBP\n";
+const std::string nonWindowsAsciiArt = R""""(
+ .d8888b.           888                    d8b  .d8888b.           888      888 
+d88P  Y88b          888                    Y8P d88P  Y88b          888      888 
+Y88b.               888                        888    888          888      888 
+ "Y888b.    8888b.  888888 .d88b.  888d888 888 888         .d88b.  888  .d88888 
+    "Y88b.     "88b 888   d88""88b 888P"   888 888  88888 d88""88b 888 d88" 888 
+      "888 .d888888 888   888  888 888     888 888    888 888  888 888 888  888 
+Y88b  d88P 888  888 Y88b. Y88..88P 888     888 Y88b  d88P Y88..88P 888 Y88b 888 
+ "Y8888P"  "Y888888  "Y888 "Y88P"  888     888  "Y8888P88  "Y88P"  888  "Y88888 
+)"""";
 
 /* Windows has some characters it won't display in a terminal. If your ascii
    art works fine on Windows and Linux terminals, just replace 'asciiArt' with
